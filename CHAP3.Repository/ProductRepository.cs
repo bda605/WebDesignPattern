@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CHAP3.Model;
+using System.Data.Entity;
 namespace CHAP3.Repository
 {
     public class ProductRepository:IProductRepository
@@ -18,7 +19,7 @@ namespace CHAP3.Repository
                                Id = p.ProductId,
                                Name = p.ProductName,
                                Price = new Model.Price(p.RRP, p.SellingPrice)
-                            };
+                           };
             return products.ToList();    
         }
     }
