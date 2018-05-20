@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHAP4.TransactionScript.BLL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHAP4.TransactionScript.UI.Web", "CHAP4.TransactionScript.UI.Web\CHAP4.TransactionScript.UI.Web.csproj", "{97E4260B-4D16-4B18-9352-7EDCFCDCBA92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHAP4.ActiveRecord.UI", "CHAP4.ActiveRecord.UI\CHAP4.ActiveRecord.UI.csproj", "{66AA14FC-1544-44B8-B31E-FB4BAFE9D8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHAP4.ActiveRecord.Model", "CHAP4.ActiveRecord.Model\CHAP4.ActiveRecord.Model.csproj", "{50187D63-03A4-4BF3-86B5-FA1EFBF8A126}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{97E4260B-4D16-4B18-9352-7EDCFCDCBA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E4260B-4D16-4B18-9352-7EDCFCDCBA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E4260B-4D16-4B18-9352-7EDCFCDCBA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AA14FC-1544-44B8-B31E-FB4BAFE9D8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AA14FC-1544-44B8-B31E-FB4BAFE9D8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AA14FC-1544-44B8-B31E-FB4BAFE9D8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AA14FC-1544-44B8-B31E-FB4BAFE9D8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50187D63-03A4-4BF3-86B5-FA1EFBF8A126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50187D63-03A4-4BF3-86B5-FA1EFBF8A126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50187D63-03A4-4BF3-86B5-FA1EFBF8A126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50187D63-03A4-4BF3-86B5-FA1EFBF8A126}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
